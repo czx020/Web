@@ -30,3 +30,7 @@ nav.navbar-inverse_fix
     background-color:white;
     border-color:white;
     }
+ a.navbar-brand
+ {
+     background:url("../image/智能.png");
+     }

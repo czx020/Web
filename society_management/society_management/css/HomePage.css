@@ -32,19 +32,53 @@ div.jumbotron h1,p
 {
     margin-top:80px;
     background:white;
-    padding:0 384px;
+    padding:0 266px;
+    }
+.row_fix
+{
+    padding: 0 116px;
+    margin:0;
     }
 .col-md-4_color
 {
-     background-color:pink;
-     margin-right:20px;
+     background-color:white;
+     margin-right:25px;
+    
     }
 div.col-md-4
 {
     width:245px;
-    height:300px;  
+    height:300px; 
+    padding:20px;
+    box-shadow:5px 10px 33px 6px #E0E0E0
     }
 .col-md-4_last
 {
      margin-right:0;
+    }
+.col_top
+{
+    height:60px;
+   vertical-align:middle;
+    }
+ .col_top p
+ {
+     text-align:left;
+     color:#1565C0;
+     font-size:20px;
+     font-family:" @Noto Sans S Chinese Black";
+     border-bottom:#E0E0E0 solid 1px;
+     padding-bottom:20px;
+     margin:0;
+     font-weight:600;
+     }
+div.col_bottom a
+{
+    display:block;
+    text-decoration:none;
+    font-size:17px;
+    font-family:" @微软雅黑";
+    color:#1565C0;
+    font-weight:500;
+    margin-top:10px;
     }
