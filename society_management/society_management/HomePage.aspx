@@ -19,7 +19,7 @@
             <div class="col-md-4 col-md-4_color">
                 <div class="col_top"><p>社区</p></div>
                 <div class="col_bottom">
-                    <a href="#">社区概况</a>
+                    <a href="Community _profile.aspx">社区概况</a>
                     <a href="#">社区文体信息</a>
                     <a href="#">社区团体</a>
                     <a href="#">志愿者信息</a>
