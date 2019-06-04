@@ -19,15 +19,14 @@
                  </div>
                  <div class="right">
                         <ul class="list-inline">
-                                <li><a class="" href="#" >首页</a></li>
+                                <li><a class="" href="HomePage.aspx" >首页</a></li>
                                 <li><a class="" href="#" >了解我们</a></li>
                         </ul>
                         <h2>一个更好用的智慧社区</h2>
                         <div class="col-lg-6">
                                  <div class="input-group">
-                                    <input type="text" class="form-control">
                                     <span class="input-group-btn">
-                                        <button class="btn btn-default" type="button">→</button>
+                                        <a class=" btn_fix btn btn-success" href="login.aspx">使用</a>
                                     </span>
                                 </div>
                         </div>
