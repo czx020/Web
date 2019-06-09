@@ -2,18 +2,24 @@
   padding-top: 20px;
   
 }
-
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
   margin-top: 40px;
   border-top: 1px solid #eee;
 }
-
+div.container
+{
+    padding:80px 0 0 0;
+    width:100%; 
+    }
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  background:url("../image/laptop.jpg") no-repeat ;
+  background:url("../image/laptop.jpg") no-repeat bottom ;
+  padding:98px;
+     margin:0;
+     height:450px;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -26,9 +32,12 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   width:55%;
-  margin:0 auto;
-  
+  margin:0 auto; 
 }
+li.li_size
+{
+     height:52px;
+    }
 .nav-justified > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -91,4 +100,56 @@
 .masthead
 {
      margin-top:50px;
+    }
+#box
+    {
+        margin:60px 400px;
+        height:800px;
+    }
+    .data_page
+    {
+        width:300px;
+        height:50px;
+        margin-left:200px;
+        
+        
+    }
+    .list_view
+    {
+        float:left;
+        margin-bottom:50px;
+    }
+    .itm_box
+    {
+        width:800px;
+    }
+    #ContentPlaceHolder1_DataPager1
+    {
+        
+        }
+   #ContentPlaceHolder1_DataPager1 input
+   {
+        width:60px;
+        height:40px;
+        border:2px solid black;
+        border-radius:10px;
+        background-color:White;
+        margin-right:5px;
+       }
+  #form1
+  {
+       position:relative;
+       width:100%;
+        height:100%;
+      }
+ .sidebar-module
+ {
+     
+     position:absolute;
+     left:1300px;
+     
+     }
+ .list-unstyled li
+{
+    margin-bottom:10px;
     }

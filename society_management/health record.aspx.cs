@@ -5,11 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class HomePage : System.Web.UI.Page
+public partial class health_record : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        string xg_zg ="sfid_0";
-        Session["xg"] = xg_zg;
+
     }
 }

@@ -12,21 +12,36 @@ body
     width:100%;
     height:100%;
 }
+.middle a:hover
+{
+    color:#E066FF;
+    }
 div.container
 {
     padding:80px 0 0 0;
     width:100%;
-    
+     
     }
 div.jumbotron
 {
      padding:98px;
      margin:0;
-     
+     background:url("../image/shaking-hands.jpg");
+     height:450px;
     }
 div.jumbotron h1,p
 {
-     text-align:center;
+     text-align:left;
+    }
+div.jumbotron h1
+{
+    font-size:40px;
+    color:White;
+    }
+div.jumbotron p
+{
+        font-size:23px;
+        color:White;
     }
 .middle
 {
@@ -38,18 +53,16 @@ div.jumbotron h1,p
     }
 div.row_fix
 {
-    width:56%;
+    width:52%;
     height:100%;
     position:absolute;
-    left:50%;
+    left:52%;
     transform:translate(-50%);
-    
     }
 .col-md-4_color
 {
      background-color:white;
      margin-right:25px;
-     
     
     }
 div.col-md-4
@@ -84,8 +97,9 @@ div.col_bottom a
     display:block;
     text-decoration:none;
     font-size:17px;
-    font-family:@微软雅黑;
+    font-family:" @微软雅黑";
     color:#1565C0;
     font-weight:500;
     margin-top:10px;
     }
+

@@ -5,24 +5,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script src="js/bootstrap.js" type="text/javascript"></script>
     <link href="css/login.css" rel="stylesheet" type="text/css" />
     <title></title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" runat="server">
       <form class="form-signin" action="">
         <h2 class="form-signin-heading">登陆</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="输入身份证号" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="密码" required>
+      <asp:TextBox ID="TextBox1"  runat="server"></asp:TextBox><br />
+        <asp:TextBox ID="TextBox2" runat="server" placeholder="请输入密码" CssClass="input" TextMode="Password"> </asp:TextBox>
         
-        <button class="btn btn-lg btn-primary btn-block" type="submit">登入</button>
+      <asp:Button ID="Button1" runat="server" Text="登入" CssClass="btn" />
       </form>
 
     </div> <!-- /container -->

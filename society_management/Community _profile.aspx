@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Community _profile.aspx.cs" Inherits="Community__profile" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="Community _profile.aspx.cs" Inherits="Community__profile" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -77,30 +77,23 @@
             <p>社会事业</p>
           </div>
           <div class="sidebar-module">
-            <h4>Archives</h4>
+            <h4>快捷通道</h4>
             <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
+              <li><a href="HomePage.aspx">社区首页</a></li>
+              <li><a href="activity.aspx">社区文体信息</a></li>
+              <li><a href="#">社区团体</a></li>
+              <li><a href="volunteer management.aspx">志愿者信息</a></li>
+              <li><a href="laid-off worker.aspx">下岗职工</a></li>
+              <li><a href="Resident archives.aspx">居民档案</a></li>
+              <li><a href="Resident health.aspx?jk=疾病人群">居民健康档案</a></li>
+              <li><a href="user_add.aspx">居民信息添加</a></li>
+              <li><a href="LoManagement.aspx">低保管理</a></li>
+              <li><a href="DisabledImformation.aspx">残疾人管理</a></li>
+              <li><a href="#">治安管理</a></li>
+              <li><a href="DisputeResolution.aspx">纠纷调解记录管理</a></li>
             </ol>
           </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
+          
         </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->

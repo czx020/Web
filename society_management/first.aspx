@@ -26,7 +26,7 @@
                         <div class="col-lg-6">
                                  <div class="input-group">
                                     <span class="input-group-btn">
-                                        <a class=" btn_fix btn btn-success" href="login.aspx">使用</a>
+                                        <a class=" btn_fix btn btn-success" href="HomePage.aspx">使用</a>
                                     </span>
                                 </div>
                         </div>
